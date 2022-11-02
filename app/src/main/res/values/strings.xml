@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Example1</string>
+    <string name="text_username">UserName</string>
+    <string name="text_password">Password</string>
+    <string name="text_welcome">Welcome</string>
+    <string name="user">Andrea Roa Perez</string>
+    <string name="introduction">Introduction</string>
+    <string name="text_introduction">Android Studio is the official integrated development environment for Googles Android operating system, built on JetBrains IntelliJ IDEA software and designed specifically for Android development. It is available for download on Windows, macOS and Linux based operating systems</string>
+    <string name="properties">Properties</string>
+    <string name="text_properties">The files are saved on the applications data storage that is not accessible by other applications as an XML file. EDIT. Property system is an important feature on android. It runs as a service and manages system configurations and status. All these configurations and status are properties</string>
+    <string name="errorpassword">Invalite Password</string>
+    <string name="errorusername">Invalite UserName</string>
+    <string name="errortermscond">Acepte los terminos y condiciones</string>
+    <string name="myApp">App</string>
+    <string name="checkbox">I accept terms and conditions</string>
+</resources>

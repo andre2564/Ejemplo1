@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".WelcomeActivity">
+
+        <!--barrita de color-->
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            app:titleTextColor="@color/white"
+            android:background="#E91E63"
+            android:elevation="4dp"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+            app:title="@string/myApp"
+            />
+
+        <!--Divisiones de la misma proporción-->
+        <!--**********************************************************************-->
+        <!--Primera Sección-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+
+            <!--Subdivisión 1 primera sección-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <!--Primer recurso String - welcome-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="40dp"
+                    android:text="@string/text_welcome"
+                    android:textColor="@color/purple_500"
+                    android:textStyle="bold"
+                    android:gravity="center">
+                </TextView>
+
+                <!--Segundo recurso String - user-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="@string/user"
+                    android:textColor="@color/black"
+                    android:gravity="center">
+                </TextView>
+
+            </LinearLayout>
+
+            <!--Imagen del usuario, fuera del layout para ubicarlo mejor-->
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/ucaldas"
+                android:layout_margin="3dp"
+                android:layout_weight="2" >
+            </ImageView>
+
+
+        </LinearLayout>
+        <!--**********************************************************************-->
+        <!--Segunda Sección-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+            <!--Imagen del usuario, fuera del layout para ubicarlo mejor-->
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/android_studio_1__1_"
+                android:layout_margin="5dp"
+                android:layout_weight="1" >
+            </ImageView>
+
+            <!--Subdivisión 1 primera sección-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <!--Primer recurso String - welcome-->
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="@string/introduction"
+                    android:textColor="@color/teal_700"
+                    android:textStyle="bold">
+                </TextView>
+
+                <!--Segundo recurso String - text_introduction-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="@string/text_introduction"
+                    android:textColor="@color/black"
+                    android:justificationMode="inter_word">
+                </TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <!--**********************************************************************-->
+        <!--Tercera Sección-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_margin="8dp">
+
+            <!--Subdivisión 1 primera sección-->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_marginTop="20dp">
+
+                <!--Primer recurso String - introduction-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="30dp"
+                    android:text="@string/properties"
+                    android:textColor="#E91E63"
+                    android:textStyle="bold">
+
+                </TextView>
+
+                <!--Segundo recurso String - text_introduction-->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="15dp"
+                    android:text="@string/text_properties"
+                    android:textColor="@color/black"
+                    android:justificationMode="inter_word">
+                </TextView>
+
+            </LinearLayout>
+
+            <!--Imagen del usuario, fuera del layout para ubicarlo mejor-->
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/mision_tic"
+                android:layout_margin="3dp"
+                android:layout_weight="1" >
+            </ImageView>
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <!--Boton Flotante-->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="20dp"
+        android:src="@android:drawable/ic_input_add"
+        app:tint="@color/white"
+        app:backgroundTint="@color/black"
+        android:id="@+id/fab"
+        />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

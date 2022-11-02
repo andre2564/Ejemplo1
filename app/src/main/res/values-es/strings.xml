@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ejemplo1</string>
+    <string name="text_username">Nombre de Usuario</string>
+    <string name="text_password">Contraseña</string>
+    <string name="text_welcome">Bienvenido</string>
+    <string name="user">Andrea Roa Perez</string>
+    <string name="introduction">Introducción</string>
+    <string name="text_introduction">Android Studio es el entorno de desarrollo integrado oficial para el sistema operativo Android de Google, basado en el software IntelliJ IDEA de JetBrains y diseñado específicamente para el desarrollo de Android. Está disponible para descargar en sistemas operativos basado en Windows, macOS y Linux.</string>
+    <string name="properties">Propiedades</string>
+    <string name="text_properties">La clase Propiedades representa un conjunto persistente de propiedades. Las propiedades se pueden guardar en una secuencia o cargar desde una secuencia. Cada clave y su valor correspondiente en la lista de propiedades es una cadena</string>
+    <string name="errorpassword">Invalite Password</string>
+    <string name="errorusername">Invalite UserName</string>
+    <string name="errortermscond">Accept Terms And Conditions</string>
+    <string name="myApp">App</string>
+    <string name="checkbox">Acepto los términos y condiciones</string>
+</resources>
